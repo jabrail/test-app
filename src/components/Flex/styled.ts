@@ -6,5 +6,5 @@ export const FlexWrapper = styled.div<{ $justifyContent: Justify; $direction: Di
     justify-content: ${props => props.$justifyContent};
     flex-direction: ${props => props.$direction};
     align-items: ${props => props.$align ? props.$align : 'center'};
-    width: ${props => props.$wide ? '100%' : props.$width};
+    width: ${props => props.$wide ? '100%' : props.$width + ''};
 `
